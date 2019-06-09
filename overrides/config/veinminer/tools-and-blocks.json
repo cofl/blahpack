@@ -787,7 +787,8 @@
       ],
       "blocklist": [
         "minecraft:clay",
-        "minecraft:gravel"
+        "minecraft:gravel",
+        "minecraft:sand"
       ]
     }
   }

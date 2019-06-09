@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.5
 saturation:0.0
-renderDistance:16
+renderDistance:14
 guiScale:3
 particles:0
 bobView:true
@@ -29,7 +29,7 @@ fullscreen:true
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -109,8 +109,6 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -118,6 +116,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -136,13 +135,18 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
 key_keybind.railcraft.cart.bed:208
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
+key_key.next_item.desc:0
+key_key.previous_item.desc:0
+key_key.open_danknull.desc:0
 key_key.xu2.searchforitems:20
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
+key_key.fart.desc:34
 key_Gravi Fly Key:33
 key_minetogether.key.friends:50:CONTROL
 key_Open MPS Keybind GUI:-1
@@ -160,6 +164,7 @@ key_veinminer.key.enable:41
 key_key.open_wct.desc:0
 key_key.narrator:48:CONTROL
 key_smoothfont.key.guiOpen:199
+key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -171,7 +176,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.cofh.multimode:47
 key_key.placeItem:25
 key_key.toolConfig:46
 key_key.toolProfileChange:43
@@ -180,11 +184,20 @@ key_key.toggleFlight:0
 key_key.toggleDislocator:0
 key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
+key_bbw.key.mode:50
+key_bbw.key.fluidmode:33
 key_keys.techreborn.config:25
 key_binniecore.key.hold.for.help.tooltips:15
 key_nei.options.keys.gui.botania_corporea_request:46
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
+key_key.settings_menu:34
+key_key.range:19
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -228,6 +241,16 @@ key_key.craftingtweaks.decompressStack:0
 key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
+key_Dynamic Lights toggle:38
+key_keybinding.extrabitmanipulation.design:19
+key_keybinding.extrabitmanipulation.throw.bit:19
+key_keybinding.extrabitmanipulation.throw.bit.bitbag:19
+key_keybinding.extrabitmanipulation.chiseledarmor:34
+key_keybinding.extrabitmanipulation.chiseledarmor.slots:35
+key_keybinding.extrabitmanipulation.bitmapping:19
+key_keybinding.extrabitmanipulation.shift:0
+key_keybinding.extrabitmanipulation.control:0
+key_keybinding.extrabitmanipulation.alt:45
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
@@ -239,10 +262,26 @@ key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
 key_invtweaks.key.sort:19
+key_key.rotateup:200
+key_key.rotatedown:208
+key_key.rotateright:205
+key_key.rotateleft:203
+key_key.little.flip:34
+key_key.little.mark:50
+key_key.little.config.item:46
+key_key.little.undo:44:CONTROL
+key_key.little.redo:21:CONTROL
 key_keybind.fovfixtoggle:0
 key_collectiveframework.keybindings.timeBack:66
 key_collectiveframework.keybindings.timeForward:67
 key_xreliquary.keybind.fortune_coin:0
+key_Toggle Jetpack:45
+key_Open Rocket GUI:46
+key_Toggle RCS:19
+key_Rotate Rocket Right:32
+key_Rotate Rocket Left:30
+key_Move Rocket Up:44
+key_Move Rocket Down:45
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
@@ -264,8 +303,8 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
-soundCategory_master:1.0
-soundCategory_music:0.15492958
+soundCategory_master:0.60596025
+soundCategory_music:0.07042254
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
@@ -274,6 +313,8 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
+soundCategory_ds_footsteps:0.5
+soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
