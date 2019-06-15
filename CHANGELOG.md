@@ -50,12 +50,12 @@
 - [Dynamic Lights](https://minecraft.curseforge.com/mc-mods/227874)
 
   Adds dynamic lighting options.
-- [Ender IO Endergy](https://minecraft.curseforge.com/mc-mods/304346)
-
-  Adds higher-end Ender IO conduits, primarily for power transport.
 - [Dynamic Surroundings](https://minecraft.curseforge.com/mc-mods/238891)
 
   Adds a variety of client-side environmental effects and sounds.
+- [Ender IO Endergy](https://minecraft.curseforge.com/mc-mods/304346)
+
+  Adds higher-end Ender IO conduits, primarily for power transport.
 - [Extra Bit Manipulation](https://minecraft.curseforge.com/mc-mods/240959)
 
   Adds more options for Chisel & Bits placement.
