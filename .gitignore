@@ -1,0 +1,8 @@
+# These are here to allow easier updating and replacing of files later.
+# Disallow mod overrides except where explicitly allowed (don't package files that will be acquire anyway)
+/overrides/mods/**/*
+!/overrides/mods/Computronics*.jar
+
+# Don't allow client-specific JEI configs
+/overrides/config/jei/bookmarks.ini
+/overrides/config/jei/worldSettings.cfg
