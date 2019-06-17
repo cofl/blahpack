@@ -1,3 +1,18 @@
+# 1.1.0-a2
+
+## Added Mods
+- [Bad With No Cookie](https://minecraft.curseforge.com/mc-mods/261251)
+- [Clumps](https://minecraft.curseforge.com/mc-mods/256717)
+- [InstantUnify](https://minecraft.curseforge.com/mc-mods/277047)
+
+## Removed Mods
+- ArchitectureCraft
+- Big Beautiful Buttons
+- Extra Bit Manipulation
+- ProjectX 2 (officially)
+- Unlimited Chisel Works
+- Waystones
+
 # 1.1.0-a1
 ## Options
 - Decreased the default render distance to 14 chunks.
@@ -13,7 +28,6 @@
 - Enabled the old infinity mechanic for AE2 Wireless Terminals
 - Allow all tools to work with VeinMiner
 - Added sand to the list of blocks veinminable with shovels
-
 
 ## Added Mods
 ### Libraries
