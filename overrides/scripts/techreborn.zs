@@ -180,3 +180,11 @@ mods.techreborn.distillationTower.addRecipe(<techreborn:dynamiccell>.withTag({Fl
 
 #Add biomass to ethanol recipe to distillation tower.
 mods.techreborn.distillationTower.addRecipe(<techreborn:dynamiccell:0>.withTag({Fluid:{FluidName:"bio.ethanol",Amount:1000}}) * 8, null, null, <techreborn:dynamiccell:0> * 8, <techreborn:dynamiccell:0>.withTag({Fluid:{FluidName:"biomass",Amount:1000}}) * 16, null, 400, 32);
+
+#Buff iron fence recipe output, alternate recipe
+recipes.remove(<techreborn:refined_iron_fence>)
+recipes.addShaped(<techreborn:refined_iron_fence> * 3, [[null, null, null],[<ore:ingotIron>, <ore:stickIron>, <ore:ingotIron>],[<ore:ingotIron>, <ore:stickIron>, <ore:ingotIron>]])
+recipes.addShaped(<techreborn:refined_iron_fence> * 3, [[null, null, null],[<ore:ingotRefinedIron>, <ore:stickIron>, <ore:ingotRefinedIron>],[<ore:ingotRefinedIron>, <ore:stickIron>, <ore:ingotRefinedIron>]])
+
+## And conversion from old fences...
+recipes.addShapeless("ironfenceconversion", <techreborn:refined_iron_fence>, <ic2:fence>)

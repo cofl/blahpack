@@ -6,3 +6,4 @@
 # Don't allow client-specific JEI configs
 /overrides/config/jei/bookmarks.ini
 /overrides/config/jei/worldSettings.cfg
+/*.zip

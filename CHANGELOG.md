@@ -1,4 +1,10 @@
 # 1.1.0-a2
+## Configuration
+- Disabled the MrCrayfish's Furniture Mod welcome message
+- Unified the Iron Fences
+- Added uncrafting recipes for all AE2 cells. They require a quartz knife (it takes 1 damage), and also returns the housing.
+- Added upgrade recipes for all Endergy conduits.
+- Added a Clay Block to Slate recipe to the Atomic Reconstructor.
 
 ## Added Mods
 - [Bad With No Cookie](https://minecraft.curseforge.com/mc-mods/261251)

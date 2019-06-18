@@ -32,3 +32,6 @@ mods.jei.JEI.removeAndHide(<advanced_solar_panels:double_stone_slab>);
 mods.jei.JEI.removeAndHide(<ae2stuff:wireless>);
 mods.jei.JEI.removeAndHide(<ae2stuff:wireless_kit>);
 mods.jei.JEI.removeAndHide(<ae2stuff:visualiser>);
+
+# Quark stuff
+mods.jei.JEI.removeAndHide(<quark:brick_wall>)
