@@ -100,8 +100,8 @@ recipes.addShaped("custom-satellitecontrolcenter", <advancedrocketry:satelliteco
 # TODO: The Planet Selector, Seal Detector, Basic Laser Gun, and Space Station Container have no recipes.
 # Add them here when we figure out what they are.
 
-recipes.removeShaped(<libvulpes:blockic2plug>);
-recipes.addShaped("custom-blockic2plug", <libvulpes:blockic2plug>, [[<thermalfoundation:material:513>, <libvulpes:structuremachine>, <ic2:te:78>]]);
+recipes.removeShaped(<libvulpes:ic2plug>);
+recipes.addShaped("custom-ic2plug", <libvulpes:ic2plug>, [[<thermalfoundation:material:513>, <libvulpes:structuremachine>, <ic2:te:78>]]);
 
 recipes.removeShaped(<advancedrocketry:sawblade>);
 recipes.addShaped("custom-sawblade", <advancedrocketry:sawblade>, [[<ore:plateIron>, <thermalfoundation:material:657>, <ore:plateIron>], [<ore:stickIron>, null, <ore:stickIron>]]);
