@@ -35,6 +35,7 @@
 - Buffed Immersive Engineering Railgun damage multiplier from 1x to 2x.
 
 ## Added Mods
+- [Advanced Rocketry Tweaker](https://minecraft.curseforge.com/mc-mods/315391)
 - [Bad With No Cookie](https://minecraft.curseforge.com/mc-mods/261251)
 - [Clumps](https://minecraft.curseforge.com/mc-mods/256717)
 - [Cosmetic Armor Reworked](https://minecraft.curseforge.com/mc-mods/237307)
