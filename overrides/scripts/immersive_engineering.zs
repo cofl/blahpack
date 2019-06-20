@@ -34,16 +34,13 @@ recipes.addShaped(<immersiveengineering:wirecoil:2> * 8, [[null, <ore:ingotRefin
 recipes.addShaped(<immersiveengineering:wirecoil:1> * 8, [[null, <ore:ingotElectrum>, null],[<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil> * 8, [[null, <ore:ingotCopper>, null],[<ore:ingotCopper>, <ore:stickWood>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
 
-#HV wire relay
-recipes.remove(<immersiveengineering:connector:5>);
-recipes.addShaped(<immersiveengineering:connector:5> * 8, [[null, <ore:ingotAluminum>, null],[<railcraft:glass>, <ore:ingotAluminum>, <railcraft:glass>], [<railcraft:glass>, <ore:ingotAluminum>, <railcraft:glass>]]);
-
-#transformer
-recipes.remove(<immersiveengineering:connector:8>);
-recipes.remove(<immersiveengineering:connector:7>);
-recipes.addShaped(<immersiveengineering:connector:7>, [[<immersiveengineering:connector>, null, <immersiveengineering:connector:2>],[<minecraft:iron_ingot>, <ic2:te:78>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-recipes.addShaped(<immersiveengineering:connector:8>, [[<immersiveengineering:connector:2>, null, <immersiveengineering:connector:4>],[<minecraft:iron_ingot>, <ic2:te:79>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-
 #skyhook
 recipes.remove(<immersiveengineering:skyhook>);
 recipes.addShaped(<immersiveengineering:skyhook>, [[<ore:ingotRefinedIron>, <ore:ingotRefinedIron>, null],[<ore:ingotRefinedIron>, <immersiveengineering:material:1>, null], [null, null, <immersiveengineering:material:1>]]);
+
+# IC2, TechReborn -> Immersive Posts iron fence
+recipes.addShapeless("ic2ironfencetoposts", <immersiveposts:fence_iron>, [<ic2:fence>]);
+recipes.addShapeless("trironfencetoposts", <immersiveposts:fence_iron>, [<techreborn:refined_iron_fence>]);
+
+# Steel rod
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:2>, <ore:ingotSteel>, <immersiveengineering:mold:2>, 1024);

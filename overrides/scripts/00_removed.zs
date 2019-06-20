@@ -34,4 +34,9 @@ mods.jei.JEI.removeAndHide(<ae2stuff:wireless_kit>);
 mods.jei.JEI.removeAndHide(<ae2stuff:visualiser>);
 
 # Quark stuff
-mods.jei.JEI.removeAndHide(<quark:brick_wall>)
+mods.jei.JEI.removeAndHide(<quark:brick_wall>);
+
+# LibVulpes rods (they suck)
+mods.jei.JEI.removeAndHide(<libvulpes:productrod:1>); # iron
+mods.jei.JEI.removeAndHide(<libvulpes:productrod:4>); # copper
+mods.jei.JEI.removeAndHide(<libvulpes:productrod:6>); # steel

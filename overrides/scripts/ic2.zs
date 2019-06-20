@@ -80,5 +80,5 @@ recipes.addShaped(<ic2:te:2>, [[<ic2:crafting:2>, <ore:blockUranium>, <ic2:craft
 #remove mass fab in favor of matter fab
 mods.jei.JEI.removeAndHide(<ic2:te:92>);
 
-#remove iron fence in favor of the techreborn variety
-mods.jei.JEI.removeAndHide(<ic2:fence>)
+#remove iron fence in favor of the immersive posts variety
+mods.jei.JEI.removeAndHide(<ic2:fence>);

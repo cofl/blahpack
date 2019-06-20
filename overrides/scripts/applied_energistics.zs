@@ -137,20 +137,19 @@ recipes.remove(<appliedenergistics2:part:16>);
 recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <minecraft:redstone>, null],[<minecraft:redstone>, null, null], [null, null, null]]);
 
 #uncraft cells
-val knife = <ore:itemQuartzKnife>.anyDamage().transformDamage();
 val housing = <appliedenergistics2:material:39>;
-recipes.addShapeless("uncraft1kcell", <appliedenergistics2:material:35>, [knife, <appliedenergistics2:storage_cell_1k>.giveBack(housing)]);
-recipes.addShapeless("uncraft4kcell", <appliedenergistics2:material:36>, [knife, <appliedenergistics2:storage_cell_4k>.giveBack(housing)]);
-recipes.addShapeless("uncraft16kcell", <appliedenergistics2:material:37>, [knife, <appliedenergistics2:storage_cell_16k>.giveBack(housing)]);
-recipes.addShapeless("uncraft64kcell", <appliedenergistics2:material:38>, [knife, <appliedenergistics2:storage_cell_64k>.giveBack(housing)]);
-recipes.addShapeless("uncraftfluid1kcell", <appliedenergistics2:material:54>, [knife, <appliedenergistics2:fluid_storage_cell_1k>.giveBack(housing)]);
-recipes.addShapeless("uncraftfluid4kcell", <appliedenergistics2:material:55>, [knife, <appliedenergistics2:fluid_storage_cell_4k>.giveBack(housing)]);
-recipes.addShapeless("uncraftfluid16kcell", <appliedenergistics2:material:56>, [knife, <appliedenergistics2:fluid_storage_cell_16k>.giveBack(housing)]);
-recipes.addShapeless("uncraftfluid64kcell", <appliedenergistics2:material:57>, [knife, <appliedenergistics2:fluid_storage_cell_64k>.giveBack(housing)]);
-recipes.addShapeless("uncraft2cubedspatialcell", <appliedenergistics2:material:32>, [knife, <appliedenergistics2:spatial_storage_cell_2_cubed>.giveBack(housing)])
-recipes.addShapeless("uncraft16cubedspaitalcell", <appliedenergistics2:material:33>, [knife, <appliedenergistics2:spatial_storage_cell_16_cubed>.giveBack(housing)])
-recipes.addShapeless("uncraft128cubedspaitalcell", <appliedenergistics2:material:34>, [knife, <appliedenergistics2:spatial_storage_cell_128_cubed>.giveBack(housing)])
-recipes.addShapeless("uncraftessentia1kcell", <thaumicenergistics:essentia_component_1k>, [knife, <thaumicenergistics:essentia_cell_1k>.giveBack(housing)])
-recipes.addShapeless("uncraftessentia4kcell", <thaumicenergistics:essentia_component_4k>, [knife, <thaumicenergistics:essentia_cell_14k>.giveBack(housing)])
-recipes.addShapeless("uncraftessentia16kcell", <thaumicenergistics:essentia_component_16k>, [knife, <thaumicenergistics:essentia_cell_16k>.giveBack(housing)])
-recipes.addShapeless("uncraftessentia64kcell", <thaumicenergistics:essentia_component_64k>, [knife, <thaumicenergistics:essentia_cell_64k>.giveBack(housing)])
+recipes.addShapeless("uncraft1kcell", <appliedenergistics2:material:35>, [<appliedenergistics2:storage_cell_1k>.giveBack(housing)]);
+recipes.addShapeless("uncraft4kcell", <appliedenergistics2:material:36>, [<appliedenergistics2:storage_cell_4k>.giveBack(housing)]);
+recipes.addShapeless("uncraft16kcell", <appliedenergistics2:material:37>, [<appliedenergistics2:storage_cell_16k>.giveBack(housing)]);
+recipes.addShapeless("uncraft64kcell", <appliedenergistics2:material:38>, [<appliedenergistics2:storage_cell_64k>.giveBack(housing)]);
+recipes.addShapeless("uncraftfluid1kcell", <appliedenergistics2:material:54>, [<appliedenergistics2:fluid_storage_cell_1k>.giveBack(housing)]);
+recipes.addShapeless("uncraftfluid4kcell", <appliedenergistics2:material:55>, [<appliedenergistics2:fluid_storage_cell_4k>.giveBack(housing)]);
+recipes.addShapeless("uncraftfluid16kcell", <appliedenergistics2:material:56>, [<appliedenergistics2:fluid_storage_cell_16k>.giveBack(housing)]);
+recipes.addShapeless("uncraftfluid64kcell", <appliedenergistics2:material:57>, [<appliedenergistics2:fluid_storage_cell_64k>.giveBack(housing)]);
+recipes.addShapeless("uncraft2cubedspatialcell", <appliedenergistics2:material:32>, [<appliedenergistics2:spatial_storage_cell_2_cubed>.giveBack(housing)]);
+recipes.addShapeless("uncraft16cubedspaitalcell", <appliedenergistics2:material:33>, [<appliedenergistics2:spatial_storage_cell_16_cubed>.giveBack(housing)]);
+recipes.addShapeless("uncraft128cubedspaitalcell", <appliedenergistics2:material:34>, [<appliedenergistics2:spatial_storage_cell_128_cubed>.giveBack(housing)]);
+recipes.addShapeless("uncraftessentia1kcell", <thaumicenergistics:essentia_component_1k>, [<thaumicenergistics:essentia_cell_1k>.giveBack(housing)]);
+recipes.addShapeless("uncraftessentia4kcell", <thaumicenergistics:essentia_component_4k>, [<thaumicenergistics:essentia_cell_4k>.giveBack(housing)]);
+recipes.addShapeless("uncraftessentia16kcell", <thaumicenergistics:essentia_component_16k>, [<thaumicenergistics:essentia_cell_16k>.giveBack(housing)]);
+recipes.addShapeless("uncraftessentia64kcell", <thaumicenergistics:essentia_component_64k>, [<thaumicenergistics:essentia_cell_64k>.giveBack(housing)]);
