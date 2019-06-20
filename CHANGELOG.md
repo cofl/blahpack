@@ -32,6 +32,7 @@
 - Disabled Advanced Rocketry copper, rutile, and tin oregen.
 - Reverted Immersive Engineering transformer and relay recipes to their stock versions.
 - Added Crushed Black Quartz to the dye and dyeBlack ore dictionaries.
+- Buffed Immersive Engineering Railgun damage multiplier from 1x to 2x.
 
 ## Added Mods
 - [Bad With No Cookie](https://minecraft.curseforge.com/mc-mods/261251)
