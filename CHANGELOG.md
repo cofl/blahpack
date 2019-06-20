@@ -2,13 +2,45 @@
 ## Configuration
 - Disabled the MrCrayfish's Furniture Mod welcome message
 - Unified the Iron Fences
-- Added uncrafting recipes for all AE2 cells. They require a quartz knife (it takes 1 damage), and also returns the housing.
+- Added uncrafting recipes for all AE2 cells. They also return the housing.
 - Added upgrade recipes for all Endergy conduits.
 - Added a Clay Block to Slate recipe to the Atomic Reconstructor.
+- Removed the Quark Brick Wall (VBE provides one)
+- Integrated Advanced Rocketry recipes. Check JEI for new recipes!
+- Removed the following Advanced Rocketry machines:
+    - Cutting Machine. All recipes have been obsoleted or are available from other, better sawmills.
+    - Precision Assembler. All relevant recipes have been added to the crafting bench.
+    - Rolling Machine. All relevant recipes have been added to the TechReborn Rolling Machine.
+    - Electric Arc Furnace. All relevant recipes have been added to the Immersive Engineering Arc Furnace.
+    - Crystallizer. The recipes for Difluorite ingots has been added to furnaces.
+    - Lathe. All recipes were handled elsewhere better.
+    - Plate Presser. All recipes were handled elsewhere better.
+- Removed the following items and blocks:
+    - libvulpes Iron Rods
+    - libvulpes Copper Rods
+    - libvulpes Steel Rods
+    - libvulpes Silicon Ingots, Nuggets, Dust, and Boules
+    - libvulpes Coils (other than Titanium and Iridium). They have been replaced with IE coils in crafting recipes.
+    - Silicon Wafers. Now just use normal silicon.
+    - Advanced Rocketry circuits have been replaced with ore-dictionaried variants.
+    - Advanced Rocketry circuit plates have been replaced with Forestry variants.
+    - Batteries have been replaced with EnderIO capacitors.
+    - The Saw Blade has been replaced with an equivalent item from Thermal Foundation.
+    - The Steel Fan has been replaced with an equivalent item from Mekanism.
+    - Carbon Brick, replaced by ingotGraphite.
+- Buffed the Titanium and Iridium rod crafting recipes to be in line with other rod recipes.
+- Disabled Advanced Rocketry copper, rutile, and tin oregen.
+- Reverted Immersive Engineering transformer and relay recipes to their stock versions.
+- Added Crushed Black Quartz to the dye and dyeBlack ore dictionaries.
 
 ## Added Mods
 - [Bad With No Cookie](https://minecraft.curseforge.com/mc-mods/261251)
 - [Clumps](https://minecraft.curseforge.com/mc-mods/256717)
+- [Cosmetic Armor Reworked](https://minecraft.curseforge.com/mc-mods/237307)
+- [Engineered Golems](https://minecraft.curseforge.com/mc-mods/307407)
+- [Engineer's Decor](https://minecraft.curseforge.com/mc-mods/313866)
+- [Engineer's Doors](https://minecraft.curseforge.com/mc-mods/291126)
+- [Immersive Posts](https://minecraft.curseforge.com/mc-mods/314645)
 - [InstantUnify](https://minecraft.curseforge.com/mc-mods/277047)
 
 ## Removed Mods
